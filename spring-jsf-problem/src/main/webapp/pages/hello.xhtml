@@ -1,0 +1,18 @@
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+	
+	<h:head>
+	</h:head>
+	<h:body>
+		<h:outputText value="This is the Home Page, please press the button"></h:outputText>
+		
+		<h:form>
+			<h:commandButton value="Say Hello">
+				<f:ajax event="click" execute="@this" render="@this" listener="#{homeController.actionHello()}" />
+			</h:commandButton>
+		</h:form>
+	</h:body>
+</html>

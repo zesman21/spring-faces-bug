@@ -1,4 +1,4 @@
-#This is a demo spring webflow application with jsf to demonstrate a spring-faces 3.0.1 Version Bug in combination with myfaces 4.1.1
+# This is a demo spring webflow application with jsf to demonstrate a spring-faces 3.0.1 Version Bug in combination with myfaces 4.1.1
 
 # error to reproduce
 
